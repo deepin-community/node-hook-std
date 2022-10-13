@@ -1,0 +1,35 @@
+node-hook-std (2.0.0-1) unstable; urgency=medium
+
+  * Team upload
+
+  [ Debian Janitor ]
+  * Trim trailing whitespace.
+  * Use secure copyright file specification URI.
+  * Bump debhelper from deprecated 9 to 12.
+  * Set debhelper-compat version in Build-Depends.
+  * Set upstream metadata fields: Bug-Database, Bug-Submit, Repository,
+    Repository-Browse.
+  * Update Vcs-* headers from URL redirect.
+  * Use canonical URL in Vcs-Git.
+
+  [ Xavier Guimard ]
+  * Bump debhelper compatibility level to 13
+  * Declare compliance with policy 4.5.1
+  * Add "Rules-Requires-Root: no"
+  * Change section to javascript
+  * Add debian/gbp.conf
+  * Modernize debian/watch
+  * Use dh-sequence-nodejs auto install
+  * Apply multi-arch hints (foreign)
+  * New upstream version 2.0.0
+  * Update copyright
+  * Update description
+  * Enable upstream test using jest instead of ava
+
+ -- Xavier Guimard <yadd@debian.org>  Wed, 16 Dec 2020 10:18:10 +0100
+
+node-hook-std (0.2.0-1) unstable; urgency=low
+
+  * Initial release (Closes: #847731)
+
+ -- Sruthi Chandran <srud@disroot.org>  Sun, 11 Dec 2016 12:28:22 +0530

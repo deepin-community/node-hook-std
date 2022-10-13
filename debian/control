@@ -1,0 +1,22 @@
+Source: node-hook-std
+Maintainer: Debian Javascript Maintainers <pkg-javascript-devel@lists.alioth.debian.org>
+Uploaders: Sruthi Chandran <srud@disroot.org>
+Section: javascript
+Testsuite: autopkgtest-pkg-nodejs
+Priority: optional
+Build-Depends: debhelper-compat (= 13)
+ , dh-sequence-nodejs
+ , jest <!nocheck>
+Standards-Version: 4.5.1
+Vcs-Browser: https://salsa.debian.org/js-team/node-hook-std
+Vcs-Git: https://salsa.debian.org/js-team/node-hook-std.git
+Homepage: https://github.com/sindresorhus/hook-std
+Rules-Requires-Root: no
+
+Package: node-hook-std
+Architecture: all
+Multi-Arch: foreign
+Depends: ${misc:Depends}
+Description: Hook and modify stdout/stderr
+ node-hook-std permits one to modify stdout and/or stderr. It returns a
+ promise but can also take a callback.
